@@ -1,0 +1,68 @@
+.bgicon
+{
+    position:absolute;
+    width: 630px;
+    height: 600px;
+    opacity: 85%;
+    top: 10%;
+    right: 43%;
+    z-index: 1;
+}
+.div1{
+    font-size: x-large;
+    position: absolute;
+    bottom: 7%;
+    left: 5%;
+}
+table{
+    width: auto;
+    font-size: x-large;
+}
+*
+{
+    margin: 0%;
+    overflow: hidden;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.head
+{
+    top: 2%;
+    background-color: #87CEFA;
+    width: 380px;
+    position: absolute;
+    font-size: 80px;animation-name: slide;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    z-index: 2;
+}
+@keyframes slide{
+    from{right: 100%;}
+    to{right: 0%;}
+}
+.circle
+{
+    position: absolute;
+    bottom:19%;
+    background-color: #87CEFA;
+    height: 550px;
+    width: 1000px;
+    border-radius: 400px;
+    font-size: 80px;animation-name: slide1;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes slide1{
+    from{left: 100%;}
+    to{left: 60%;}
+}
+table{
+    padding-top: 5%;
+    padding-left: 12%;
+}
+.auicon
+{
+    padding-top: 10%;
+    padding-left: 24%;
+    height: 200px;
+    width: 200px;
+}
